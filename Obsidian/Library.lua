@@ -5872,7 +5872,6 @@ do
                     Library:SafeCallback(Func)
                     ContextMenu:Close()
                 end))
-1
                 table.insert(ColorPicker.Connections, Button.MouseEnter:Connect(function()
                     TweenService:Create(Button, Library.TweenInfo, {
                         BackgroundTransparency = 0.7,
